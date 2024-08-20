@@ -1,10 +1,11 @@
 # BDDA_SQL_Bottom-up
 
-Database Description:
+### Database Description:
 
 The Property Management Database is designed to store and manage information about properties, property owners, property managers, and their corresponding registration details. The database is structured to capture key information about vacant properties and their management for official record-keeping purposes. This database facilitates efficient tracking, management, and reporting of property registration status, owner details, and emergency contact information.
 
-Database Structure Overview:
+
+### Database Structure Overview:
 
 The database contains four main tables:
 
@@ -18,7 +19,8 @@ The database contains four main tables:
 
 These tables are interlinked using relationships and foreign key constraints to ensure data integrity and efficient querying.
 
-Relationships Between Tables:
+
+### Relationships Between Tables:
 
 -Property ↔ Property_Owner: Many-to-One (M:1) relationship: Many properties can have one property owner.
 
@@ -26,7 +28,8 @@ Relationships Between Tables:
 
 -Registration ↔ Property: Many-to-One (M:1) relationship: Each registration record is associated with a single property. However, a property can have multiple registrations over time.
 
-Data Usage Scenarios:
+
+### Data Usage Scenarios:
 
 -Property Management: The database allows efficient tracking of vacant properties, including registration, ownership, and management details.
 
