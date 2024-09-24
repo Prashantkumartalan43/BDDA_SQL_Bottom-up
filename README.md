@@ -1,4 +1,4 @@
-# BDDA_SQL_Bottom-up
+# Property Managememnt SQL Database using Bottom up approach
 
 ### Database Description:
 
